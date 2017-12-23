@@ -4,7 +4,7 @@
   "description": "Get github pinned repos",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node --optimize_for_size --max_old_space_size=460 --gc_interval=100 index.js",
     "start:dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

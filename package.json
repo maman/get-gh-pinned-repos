@@ -1,0 +1,24 @@
+{
+  "name": "get-gh-pinned-repo",
+  "version": "1.0.0",
+  "description": "Get github pinned repos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Achmad Mahardi <achmad@mahardi.me>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.3"
+  },
+  "engines": {
+    "node": "9.2.1"
+  }
+}
